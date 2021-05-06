@@ -11,7 +11,7 @@
 
 ## Solution:
 
-**[Link to file in git](https://github.com/SachinDangayach/END2.0/blob/main/Session1/END2_0_Session_1.ipynb)**
+**[Link to file in git](https://github.com/sairamsubramaniam/tsai_nlp/blob/master/end_course_v2/1_intro_to_nn/group_submission/END2_0_Session_1.ipynb)**
 
 ### 3. Add a readme file to your project and describe these things:
   - What is a neural network neuron?
