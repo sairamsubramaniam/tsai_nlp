@@ -57,7 +57,7 @@ E\_T (Total Error)      =  E1 + E2
 
 **Imp Note:** _Please read the "Chain Rule Comonents" column below as the numberator in the first row and enominator in the row right below it!_
 
-| --------------|----------------------------------------------------|---------------------------------|
+
 | Derivative    | Derivative Formula                                 | Chain Rule Components           |
 | --------------|----------------------------------------------------|---------------------------------|
 | d-E\_T / d-w1 | = [A+B] * (sig(h1) * (1-sig(h1))) * i1             | d-E\_T   \*  d-a\_h1  \*  d-h1  |
@@ -83,7 +83,7 @@ E\_T (Total Error)      =  E1 + E2
 |               |                                                    |                                 |
 | d-E\_T / d-w8 | = (a\_o2 - t2) * (sig(o2) * (1-sig(o2))) * a\_h2   | d-Et     \*  d-a\_o2  \*  d-o2  |
 |               | = (a\_o2 - t2/ * a\_o2 * (1-a\_o2) * a\_h2         | d-a\_o2  \*  d-o2     \*  d-w8  |
-| --------------|----------------------------------------------------|---------------------------------|
+|               |                                                    |                                 |
 
 
 ## TOTAL LOSS BY EPOCH CHARTS FOR DIFFERENT LEARNING RATES:
