@@ -8,49 +8,52 @@ Screenshots of the loss function curve for different learning rates given at the
 Screenshot of the excel file given below:
 ![Training a neural network in excel](https://github.com/sairamsubramaniam/tsai_nlp/blob/master/end_course_v2/2_backprop/images/training_nn_in_excel.png)
 
+---
 
-## Neural Network
-Assuming we have a neural network as given below, we will in later sections give formulae for forward and backward propogation
+## Neural Network  
+Assuming we have a neural network as given below, we will in later sections give formulae for forward and backward propogation  
+  
+**Inputs:** i1 and i2  
+  
+**Layer1 Weights:** w1, w2, w3, w4  
+  
+**Layer1 Outputs:** h1, h2  
+  
+**Layer1 Activations:** a\_h1, a\_h2  
+  
+**Layer2 Weights:** w5, w6, w7, w8  
+  
+**Layer2 Outputs:** o1, o2  
+  
+**Layer2 Activations:** a\_o1, a\_o2  
+  
+**Targets:** t1, t2  
 
-**Inputs:** i1 and i2
-
-**Layer1 Weights:** w1, w2, w3, w4
-
-**Layer1 Outputs:** h1, h2
-
-**Layer1 Activations:** a\_h1, a\_h2
-
-**Layer2 Weights:** w5, w6, w7. w8
-
-**Layer2 Outputs:** o1, o2
-
-**Layer2 Activations:** a\_o1, a\_o2
-
-**Targets:** t1, t2
-
+---
 
 
 ## Forward Propogation
 
 The below formulae detail out calculation of outputs, activations and errors would be as follows:
 
-h1 = i1 * w1  +  i2 * w2
-h2 = i1 * w3  +  i2 * w4
+h1 = i1 * w1  +  i2 * w2  
+h2 = i1 * w3  +  i2 * w4  
+  
+a\_h1 = exp(h1)  /  ( exp(h1) + 1 )  
+a\_h2 = exp(h2)  /  ( exp(h2) + 1 )  
+  
+o1 = a\_h1 \* w5  +  a\_h2 \* w6  
+o2 = a\_h1 \* w7  +  a\_h2 \* w8  
+  
+a\_o1 = exp(o1)  /  ( exp(o1) + 1 )  
+a\_o2 = exp(o2)  /  ( exp(o2) + 1 )  
+  
+  
+E1 (Error from a\_o1)  =  (1/2) \* ((t1 - a\_o1)^2)  
+E2 (Error from a\_o2)  =  (1/2) \* ((t2 - a\_o2)^2)  
+E\_T (Total Error)      =  E1 + E2  
 
-a\_h1 = exp(h1)  /  ( exp(h1) + 1 )
-a\_h2 = exp(h2)  /  ( exp(h2) + 1 )
-
-o1 = a\_h1 \* w5  +  a\_h2 \* w6
-o2 = a\_h1 \* w7  +  a\_h2 \* w8
-
-a\_o1 = exp(o1)  /  ( exp(o1) + 1 )
-a\_o2 = exp(o2)  /  ( exp(o2) + 1 )
-
-
-E1 (Error from a\_o1)  =  (1/2) \* ((t1 - a\_o1)^2)
-E2 (Error from a\_o2)  =  (1/2) \* ((t2 - a\_o2)^2)
-E\_T (Total Error)      =  E1 + E2
-
+---
 
 
 ## Backward Propogation
@@ -85,6 +88,8 @@ E\_T (Total Error)      =  E1 + E2
 |               | = (a\_o2 - t2/ * a\_o2 * (1-a\_o2) * a\_h2         | d-a\_o2  \*  d-o2     \*  d-w8  |
 |               |                                                    |                                 |
 
+
+---
 
 ## TOTAL LOSS BY EPOCH CHARTS FOR DIFFERENT LEARNING RATES:
 
