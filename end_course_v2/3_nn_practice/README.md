@@ -34,8 +34,8 @@ Design choices we made while building the network:
   b. A vector of 19 numbers giving the probabilities of the addition being 0 to 18
 
 
-The summary of the network looks like this:
-![Model Summary](https://www.google.com/)
+The summary of the network looks like this:  
+![Model Summary](https://github.com/sairamsubramaniam/tsai_nlp/blob/master/end_course_v2/3_nn_practice/images/Model%20Parameters.jpg)
 
 
 
