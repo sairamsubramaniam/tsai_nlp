@@ -1,5 +1,12 @@
 
 
+### Submission by:
+1. Sachin Dangayach (sachin.dangayach@gmail.com)
+2. Sairam Subramaniam (sairam.subramaniam@gmail.com) 
+
+[Here is the notebook where training was done](https://github.com/sairamsubramaniam/tsai_nlp/blob/master/end_course_v2/3_nn_practice/AdditionNet_Sachin_%26_Sai.ipynb)
+
+
 # Objective
 
 We aim to build a network that would:
