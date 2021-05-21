@@ -61,7 +61,8 @@ Yes, we set it up as a classification problem mainly because:
 Inspired by YOLO, we wanted to train the network for digit recognition for the first few epochs and then 
 after it achieves certain level of accuracy, train it for the addition / summation objective
 
-To our surprise, the network does not take more than a few epochs to achieve a > 98% accuracy
+### ACCURACY ACHIEVED - 97.75%
+To our surprise, the network does not take more than a few epochs to achieve an ~ 98% accuracy
 
 Here are the loss and accuracy charts from training the network:
 
