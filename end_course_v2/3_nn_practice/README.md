@@ -56,19 +56,27 @@ after it achieves certain level of accuracy, train it for the addition / summati
 
 To our surprise, the network does not take more than a few epochs to achieve a > 98% accuracy
 
-Here are the loss and accuracy charts from training:
+Here are the loss and accuracy charts from training the network:
 
 
-Loss By Epochs
-![Chart - Losses by Epochs](https://www.google.com/)
+Training Logs  
+![Training Logs Screenshot](https://github.com/sairamsubramaniam/tsai_nlp/blob/master/end_course_v2/3_nn_practice/images/training_logs.png)
 
 
-Digit Recognition Accuracy By Epochs
-![Chart - Digit Recognition Accuracy by Epochs](https://www.google.com/)
+Training Loss By Epochs  
+![Chart - Training Losses by Epochs](https://github.com/sairamsubramaniam/tsai_nlp/blob/master/end_course_v2/3_nn_practice/images/training_loss_by_epochs.png)
 
 
-Addition Accuracy By Epochs
-![Chart - Addition Accuracy by Epochs](https://www.google.com/)
+Digit Recognition Accuracy By Epochs  
+![Chart - Digit Recognition Accuracy by Epochs](https://github.com/sairamsubramaniam/tsai_nlp/blob/master/end_course_v2/3_nn_practice/images/test_acc_by_epochs_dra.png)
+
+
+Addition Accuracy By Epochs  
+![Chart - Addition Accuracy by Epochs](https://github.com/sairamsubramaniam/tsai_nlp/blob/master/end_course_v2/3_nn_practice/images/test_acc_by_epochs_aa.png)
+
+
+Training Loss By Batch Iterations  
+![Chart - Training Losses by Epochs](https://github.com/sairamsubramaniam/tsai_nlp/blob/master/end_course_v2/3_nn_practice/images/training_loss_by_batch_iterations.png)
 
 
 
